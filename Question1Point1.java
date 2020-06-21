@@ -12,6 +12,7 @@ public class Question1Point1 {
                 }
             }
         }
+        //check answer
         System.out.println(check);
         int val = str.charAt(2);
         System.out.println(val);
