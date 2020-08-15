@@ -1,3 +1,4 @@
+//Compress a string through counts of repeated characters
 import java.util.*;
 public class Question1Point6 {
     public static void main(String[] args){
