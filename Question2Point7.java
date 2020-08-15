@@ -1,3 +1,4 @@
+//Find the intersecting node of the two linked lists, if there is one.
 import java.util.Arrays;
 import java.util.LinkedList;
 
