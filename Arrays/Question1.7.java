@@ -1,3 +1,4 @@
+//Rotates an image represented by an NxN matrix by 90 degrees
 import java.util.*;
 public class Question1Point7 {
     public static void main(String[] args){
