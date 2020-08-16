@@ -1,5 +1,5 @@
-import java.util.*;
 // Check if a string has all unique characters, using no other data structure
+import java.util.*;
 public class Question1Point1 {
     public static void main(String[] args) {
         String test = "red";
