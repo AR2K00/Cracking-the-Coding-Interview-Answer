@@ -1,3 +1,4 @@
+//Replace all spaces in a string with '%20'
 import java.util.*;
 
 public class Question1Point3 {
