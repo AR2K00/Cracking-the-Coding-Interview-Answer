@@ -1,4 +1,4 @@
-//check if two strings are a permutation of each other
+//Check if two strings are a permutation of each other
 import java.lang.reflect.Array;
 import java.util.*;
 public class Question1Point2 {
