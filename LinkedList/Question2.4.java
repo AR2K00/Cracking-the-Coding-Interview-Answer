@@ -1,3 +1,4 @@
+//Partitions a linked list around a value x, such that all nodes less than x come before all nodes greater tahan or equal to x
 import java.util.*;
 public class Question2Point4 {
     public static void main(String[] args){
