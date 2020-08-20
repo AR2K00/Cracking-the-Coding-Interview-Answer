@@ -1,3 +1,4 @@
+//Sorts a stack by the smallest items on top without copying the elements to a different data structure
 import java.util.Stack;
 
 public class Question3Point5 {
@@ -20,16 +21,16 @@ public class Question3Point5 {
         System.out.println(val);
         int index=-1;
         while (stack2.size() != val) {
-            int highest= stack.get(0);
+            int high= stack.get(0);
             int i = 0;
             for ( ;i < stack.size(); i++) {
-                if (stack.get(i) > highest){
-                    highest = stack.get(i);
+                if (stack.get(i) > high){
+                    high = stack.get(i);
                     index = i;
                 }
             }
-            System.out.println("highest- "+highest);
-            stack2.push(highest);
+            System.out.println("high- "+high);
+            stack2.push(high);
             //System.out.print(inde);
             System.out.println("size- "+stack.size());
             if (stack.size()>1){
