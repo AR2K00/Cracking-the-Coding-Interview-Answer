@@ -1,3 +1,4 @@
+//Create a set of stacks that has a certain capacity till a new stack starts
 import java.util.ArrayList;
 import java.util.Stack;
 
