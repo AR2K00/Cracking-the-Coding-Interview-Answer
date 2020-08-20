@@ -1,8 +1,10 @@
+//A queue using two stacks
 import java.lang.reflect.MalformedParameterizedTypeException;
 import java.util.Stack;
 
 public class Question3Point4 {
     public static void main(String[] args) {
+        //tested by creating an object
         MyQueue queue = new MyQueue();
         queue.add(3);
         queue.add(4);
@@ -12,7 +14,7 @@ public class Question3Point4 {
         queue.peek();
         queue.remove();
         queue.peek();
-        queue.write();
+        queue.print();
     }
     public static class MyQueue{
         Stack<Integer> stack1 = new Stack<>();
@@ -39,7 +41,7 @@ public class Question3Point4 {
                 stack2.push(stack1.get(i));
             }
         }
-        public void write(){
+        public void print(){
            String here = stack2.toString();
            System.out.println(here);
         }
