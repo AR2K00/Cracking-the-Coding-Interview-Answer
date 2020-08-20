@@ -1,4 +1,4 @@
-//
+//Find the kth to last element of a singly linked list
 import java.util.Arrays;
 import java.util.LinkedList;
 public class Question2Point2 {
