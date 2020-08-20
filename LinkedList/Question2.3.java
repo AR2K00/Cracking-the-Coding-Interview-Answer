@@ -1,3 +1,4 @@
+//An algorithm to delete a node in the middle of a singly linked list
 import java.util.*;
 public class Question2Point3 {
     public static void main(String[] args){
