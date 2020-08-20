@@ -1,3 +1,4 @@
+//Check if a linked list is a palindrome
 import java.util.Arrays;
 import java.util.LinkedList;
 
