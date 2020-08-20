@@ -1,3 +1,5 @@
+//Create an animal shelter which only allows for adopting either the oldest of all cats or dogs, 
+//or the user can choose between a dog and cat and the user ges the oldest of the choice
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
