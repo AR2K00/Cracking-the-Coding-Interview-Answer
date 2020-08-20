@@ -1,3 +1,6 @@
+//Two numbers are represented by a linked list, where each node contains a single digit. 
+//Digits are in reverse order, such that the 1's digit is at the head of the list.
+//This code adds the two numbers and returns the sum as a linked list.
 import java.util.*;
 public class Question2Point5 {
     public static void main(String[] args){
